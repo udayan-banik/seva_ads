@@ -1,3 +1,20 @@
+.border {
+  border-color: #03001e; /* fallback for old browsers */
+  border-color: -webkit-linear-gradient(
+    to left,
+    #fdeff9,
+    #ec38bc,
+    #7303c0,
+    #03001e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  border-color: linear-gradient(
+    to left,
+    #fdeff9,
+    #ec38bc,
+    #7303c0,
+    #03001e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .bg-new {
   background: #03001e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -27,4 +44,7 @@
     #3f5efb,
     #fc466b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.blur {
+  backdrop-filter: blur(5px);
 }
